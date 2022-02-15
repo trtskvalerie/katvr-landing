@@ -1,4 +1,11 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Landing page for KatVR
+
+- [DEMO](https://trtskvalerie.github.io/katvr-landing/)
+- [Figma design](https://www.figma.com/file/Blpg4iapsI7fRqJeSp6DvK/KatVR?node-id=1%3A370)
+
+## Technology Stack
+
+- HTML
+- CSS (SCSS)
+- BEM
+- JavaScript

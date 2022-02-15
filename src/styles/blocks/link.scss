@@ -1,0 +1,18 @@
+.link {
+  display: block;
+
+  color: $white;
+  text-decoration: none;
+  transition: color $transitionDefault,
+    background-color $transitionDefault;
+
+  &:hover {
+    color: $contrastBlue;
+  }
+
+  &--header {
+    font-family: Mark-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+.social {
+  display: flex;
+  gap: 18px;
+  height: $lineHeightFooterMob;
+
+  &--tablet {
+    @include onTablet {
+      height: 14px;
+    }
+  }
+
+  &__link {
+    width: $lineHeightFooterMob;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    transition: transform $transitionDefault;
+
+    &:hover {
+      transform: scale(1.15);
+    }
+
+    &--facebook {
+      background-image: url("../images/social/facebook.svg");
+    }
+
+    &--twitter {
+      background-image: url("../images/social/twitter.svg");
+    }
+
+    &--youtube {
+      background-image: url("../images/social/youtube.svg");
+    }
+
+    &--reddit {
+      background-image: url("../images/social/reddit.svg");
+    }
+  }
+}

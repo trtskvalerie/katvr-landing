@@ -1,3 +1,31 @@
 h1 {
   @extend %h1;
 }
+
+h2 {
+  @extend %h2;
+}
+
+h3 {
+  @extend %h3;
+}
+
+p {
+  @extend %p;
+}
+
+.p-lg {
+  @extend %p-lg;
+}
+
+.blue-accent {
+  @extend %blue-accent;
+}
+
+.strong {
+  @extend %strong;
+}
+
+.button {
+  @extend %button;
+}

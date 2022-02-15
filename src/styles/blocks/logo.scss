@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  height: 12px;
+  transition: transform $transitionDefault;
+
+  @include onTablet {
+    height: 14px;
+  }
+
+  @include onDesktop {
+    height: 16px;
+  }
+
+  &--footer {
+    height: 14px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

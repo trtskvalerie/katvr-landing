@@ -1,0 +1,32 @@
+.footer {
+  background-color: $black;
+
+  &--mob {
+    display: block;
+
+    @include onTablet {
+      display: none;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 16px;
+  }
+
+  &__contacts {
+    margin-bottom: 12px;
+  }
+
+  &__item {
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    font-size: 12px;
+    line-height: $lineHeightFooterMob;
+  }
+}

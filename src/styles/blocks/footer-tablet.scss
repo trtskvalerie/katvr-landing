@@ -1,0 +1,26 @@
+.footer-tablet {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+
+  background-color: $black;
+
+  @include onTablet {
+    display: flex;
+  }
+
+  @include onDesktop {
+    height: 100px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
